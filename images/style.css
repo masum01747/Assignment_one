@@ -1,0 +1,258 @@
+/*  shared for full body */ 
+*{
+    margin: 0;
+    padding: 0;
+}
+/* first banner start */
+.banner-container{
+width: 100%;
+height: 100vh;
+}
+.banner{
+    background-image: url(../images/Banner\ Image.png);
+    width: 1320px;
+   height: 482px;
+   flex-shrink: 0;
+    margin:0 auto; 
+    border-radius: 16px;
+    line-height: 15px;
+    background-color: rgba(0, 0, 0, 0.438);
+    background-blend-mode: multiply;
+    padding-bottom: 50px;
+}
+.banner-text h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+     padding:180px 344px 0 375px; 
+  }
+.banner h1{
+    color: #FFF;
+    width: 632px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    padding:0 344px 177px 344px;
+    
+}
+.new_year{
+   padding-bottom: 100px;
+}
+
+/* Starting New year photo */
+div h2{
+    padding-top: 50px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+div h4{
+    padding-top: 40px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+div h3{
+    margin:0;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.new_year{
+    padding-top: 50px;
+    margin:0 auto;
+    display: block;
+}
+ /* Starting Mid night Party */
+
+ .new_container{
+   padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/Vectorrr.png");
+    width:1320px;
+    height: 600px;
+    margin:0 auto;
+    border-radius: 16px;
+    /* line-height: 0px; */
+    background-color: rgba(0, 0, 0, 0.438);
+    background-blend-mode: multiply;
+    display: flex;
+
+ }
+ .new_container h4{
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    padding-bottom: 50px;
+    /* margin: 126px; */
+ }
+ .new_container h5{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+   padding-bottom: 20px;
+   padding-left: 50px;
+   width: 697px;
+   /* padding-right: 134px; */
+   
+ }
+ .join{
+   background: none;
+   color: #FFF;
+   text-align: center;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-transform: uppercase;
+   margin-left: 150px;
+
+ }
+ .group_70{
+    padding-left: 160px;
+    /* padding-top: 20px; */
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+ }
+/* Starting new container new park hotel */
+
+.new_container1{
+  margin-top: 50px;
+   width: 100%;
+   height: 100vh;
+   /* padding:100px 386px 214px 385px; */
+   width: 1320px; 
+    height: 482px; 
+   flex-shrink: 0;
+   background-color: #ff000009;
+
+}
+.text{
+   padding:100px 386px 214px 350px; 
+}
+.new_container1 h3{
+   color:#070211;
+   text-align: center;
+   font-family: Inter;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 56px; /* 175% */
+   text-transform: capitalize;
+}
+.colortext{
+   color:#ff0000
+}
+.btn{
+   background-color: #ff0000;
+   color: #FFF;
+   text-align: center;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-transform: uppercase;
+   padding:10px 12px;
+   border: none;
+   border-radius: 5px;
+   /* margin:316px 77px 110px 576px */
+   margin-left: 200px;
+   margin-top: 25px;
+}
+ /* coming soon */
+
+ .container_coming{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    padding-top: 60px;
+    align-items: center;
+
+ }
+ .coming{
+   margin-top: 70px;
+ }
+ .coming h3{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 180px;
+    margin-bottom: 0px;
+
+ }
+  
+ .coming h4{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-right: 65px;
+    margin-top: 0;
+   
+ }
+ .coming h5{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 393px;
+ }
+ .ellipse{
+    border:15px solid #F00;
+    border-radius: 463px;
+    width: 463px;
+   height: 463px;
+   flex-shrink: 0;
+ }
+ .container_2024{
+   margin:0;
+   padding:0;
+ }
+ .container_2024 h3{
+   color: #F00;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+
+ }
