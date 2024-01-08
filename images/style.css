@@ -11,7 +11,7 @@ height: 100vh;
 .banner{
     background-image: url(../images/Banner\ Image.png);
     width: 1320px;
-   height: 482px;
+   height: 600px;
    flex-shrink: 0;
     margin:0 auto; 
     border-radius: 16px;
@@ -84,18 +84,16 @@ div h3{
  /* Starting Mid night Party */
 
  .new_container{
-   padding-top: 100px;
-    width: 100%;
-    height: 100vh;
+     
     background-image: url("../images/Vectorrr.png");
     width:1320px;
     height: 600px;
     margin:0 auto;
     border-radius: 16px;
-    /* line-height: 0px; */
-    background-color: rgba(0, 0, 0, 0.438);
+        background-color: rgba(0, 0, 0, 0.438);
     background-blend-mode: multiply;
     display: flex;
+   background-repeat: no-repeat;
 
  }
  .new_container h4{
@@ -255,4 +253,7 @@ div h3{
    font-weight: 700;
    line-height: normal;
 
+ }
+ .containerpic{
+   display:flex
  }
